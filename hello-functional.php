@@ -13,17 +13,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 if ( ! function_exists( 'hello_functional' ) ) {
 
-	/**
-	 * Explain what the function does please.
-	 *
+  /**
+   * Explain what the function does please.
+   *
    * @param
    * @return
-	 */
- add_action( 'wp_head', 'hello_functional' );
- function hello_functional() {
+   */
+  add_action( 'wp_head', 'hello_functional' );
+  function hello_functional() {
 
-	 echo '<!-- Hello Functional is active :) -->';
+    echo '<!-- Hello Functional is active :) -->';
 
- }
+  }
 
 }
